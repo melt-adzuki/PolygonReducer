@@ -1,0 +1,20 @@
+{
+    "name": "me.adzuki.polygon-reducer.editor",
+    "rootNamespace": "AdzukiMe.PolygonReducer",
+    "references": [
+        "nadena.dev.ndmf",
+        "me.adzuki.polygon-reducer.runtime",
+        "me.adzuki.polygon-reducer.unity-mesh-simplifier"
+    ],
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "me.adzuki.polygon-reducer.runtime",
+    "rootNamespace": "AdzukiMe.PolygonReducer",
+    "references": [],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "VRCSDKBase.dll"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

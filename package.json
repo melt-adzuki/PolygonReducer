@@ -1,0 +1,13 @@
+{
+  "name": "me.adzuki.polygon-reducer",
+  "displayName": "Polygon Reducer",
+  "version": "0.0.1",
+  "unity": "2022.3",
+  "description": "Non-Destructive Polygon Reducer for VRChat avatars",
+  "author": {
+    "name": "melt_adzuki"
+  },
+  "vpnDependencies": {
+    "nadena.dev.ndmf": "^1.4.1"
+  }
+}
