@@ -3,13 +3,12 @@ using UnityEngine;
 
 namespace AdzukiMe.PolygonReducer.Infrastructure
 {
-    internal sealed class MeshRepositorySMR
-        : IMeshRepository
+    internal sealed class MeshRepositorySMR : IMeshRepository
     {
         private readonly SkinnedMeshRenderer _skinnedMeshRenderer;
 
-        public MeshRepositorySMR
-            (SkinnedMeshRenderer skinnedMeshRenderer)
+        public MeshRepositorySMR(
+            SkinnedMeshRenderer skinnedMeshRenderer)
         {
             _skinnedMeshRenderer = skinnedMeshRenderer;
         }

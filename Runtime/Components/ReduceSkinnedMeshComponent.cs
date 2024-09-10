@@ -10,7 +10,8 @@ namespace AdzukiMe.PolygonReducer.Components
     {
         protected override void SetMeshFromComponent()
         {
-            Mesh = new MeshRepositorySMR(GetComponent<SkinnedMeshRenderer>());
+            Mesh = new MeshRepositorySMR(
+                GetComponent<SkinnedMeshRenderer>());
         }
     }
 }
