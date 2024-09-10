@@ -14,7 +14,8 @@ namespace AdzukiMe.PolygonReducer.Editor
         {
             InPhase(BuildPhase.Transforming)
                 .BeforePlugin("com.anatawa12.avatar-optimizer")
-                .Run(ReduceSkinnedMeshPass.Instance);
+                .Run(ReduceSkinnedMeshPass.Instance)
+                .Then.Run(RemovePolygonReducerComponentsPass.Instance);
         }
     }
 }

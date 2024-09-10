@@ -3,8 +3,7 @@
     "rootNamespace": "AdzukiMe.PolygonReducer",
     "references": [
         "nadena.dev.ndmf",
-        "me.adzuki.polygon-reducer.runtime",
-        "me.adzuki.polygon-reducer.unity-mesh-simplifier"
+        "me.adzuki.polygon-reducer.runtime"
     ],
     "overrideReferences": false,
     "precompiledReferences": [],

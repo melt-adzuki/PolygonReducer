@@ -1,7 +1,9 @@
 {
     "name": "me.adzuki.polygon-reducer.runtime",
     "rootNamespace": "AdzukiMe.PolygonReducer",
-    "references": [],
+    "references": [
+        "me.adzuki.polygon-reducer.unity-mesh-simplifier"
+    ],
     "overrideReferences": true,
     "precompiledReferences": [
         "VRCSDKBase.dll"
