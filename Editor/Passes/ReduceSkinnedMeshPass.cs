@@ -10,7 +10,7 @@ namespace AdzukiMe.PolygonReducer.Editor.Passes
         protected override void Execute(BuildContext context)
         {
             foreach (var component in context.GetComponents<ReduceSkinnedMeshComponent>())
-                ReduceSkinnedMeshService<MeshSimplifiableImpl>.Process(component);
+                ReduceSkinnedMeshService<MeshSimplifiableUMS>.Process(component);
         }
     }
 }

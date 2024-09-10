@@ -4,7 +4,7 @@ using UnityMeshSimplifier;
 
 namespace AdzukiMe.PolygonReducer.Infrastructure
 {
-    internal sealed class MeshSimplifiableImpl : IMeshSimplifiable
+    internal sealed class MeshSimplifiableUMS : IMeshSimplifiable
     {
         public Mesh Mesh { private get; init; }
         

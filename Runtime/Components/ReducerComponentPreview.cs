@@ -21,7 +21,7 @@ namespace AdzukiMe.PolygonReducer.Components
             IsPreviewing = true;
             _originalMesh = Mesh.Value;
 
-            ReduceMeshService<MeshSimplifiableImpl>.Process(Mesh, options: this);
+            ReduceMeshService<MeshSimplifiableUMS>.Process(Mesh, options: this);
         }
 
         public void StopPreview()
