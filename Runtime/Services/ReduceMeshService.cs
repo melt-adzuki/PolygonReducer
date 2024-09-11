@@ -6,7 +6,7 @@ namespace AdzukiMe.PolygonReducer.Services
     internal static class ReduceMeshService<MeshSimplifiable>
         where MeshSimplifiable : IMeshSimplifiable, new()
     {
-        public static void Process(IMeshRepository mesh, ReducerComponent options)
+        public static void Process(IMeshRepository mesh, ReducerComponentOptions options)
         {
             var meshSimplifiable = new MeshSimplifiable
             {
